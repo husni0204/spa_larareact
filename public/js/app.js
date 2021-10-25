@@ -4889,11 +4889,11 @@ var Layout = function Layout(_ref) {
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
           className: "w-full h-full overflow-y-auto relative",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "text-center flex justify-between absolute right-0 left-0 bg-gray-100 py-3",
+            className: "border-flex rounded-xl text-center flex justify-between absolute right-0 left-0 bg-gray-100 py-3",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               children: user === null || user === void 0 ? void 0 : user.name
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.InertiaLink, {
-              className: "bg-red-200",
+              className: "border flex bg-red-700 text-white text-md font-semibold rounded-xl py-2 px-4 mt-2",
               href: route('logout'),
               method: "post",
               as: "button",

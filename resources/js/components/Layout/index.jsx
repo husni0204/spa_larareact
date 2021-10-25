@@ -16,9 +16,9 @@ const Layout = ({children, user})=> {
                     {/* Main */}
                     <div className="w-full h-full overflow-y-auto relative">
                         {/* Headers */}
-                        <div className="text-center flex justify-between absolute right-0 left-0 bg-gray-100 py-3">
+                        <div className="border-flex rounded-xl text-center flex justify-between absolute right-0 left-0 bg-gray-100 py-3">
                             <p>{user?.name}</p>
-                            <InertiaLink className="bg-red-200" href={route('logout')} method="post" as="button" type="button">Logout</InertiaLink>
+                            <InertiaLink className="border flex bg-red-700 text-white text-md font-semibold rounded-xl py-2 px-4 mt-2" href={route('logout')} method="post" as="button" type="button">Logout</InertiaLink>
                         </div>
                         {/* Headers */}
                         <div className="h-full overflow-y-auto pt-20 pb-10 px-10 text-gray-500">
