@@ -38,7 +38,7 @@ const Menu = React.memo(({ children, href, pageActive }) => {
     console.log(`button ${href}`);
     return (
         <div>
-            <InertiaLink className="ml-4   " href={href}>
+            <InertiaLink className="ml-4" href={href}>
                 <button className={`${href === pageActive ? 'bg-red-700' : ''} py-2 font-semibold text-lg flex items-center px-8 w-full`}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
